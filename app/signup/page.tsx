@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 export default function Waitlist() {
+
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
